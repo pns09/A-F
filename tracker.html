@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="tracker.css">
+    <title>Task Tracker v2</title>
+</head>
+
+<body>
+    <div class='container'>
+        <header>
+            <h1 class='headings'>Task Tracker</h1>
+            <p class="number">v2.0</p>
+        </header>
+
+        <div class='main-container'>
+            <label>
+                <h2 class='headings'>Create a Task</h2>
+            </label>
+            <form id='newData'>
+                <div class="form-group">
+                    <label class='label'>Task Name</label>
+                    <br>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label class='label'>Date</label>
+                    <br>
+                    <input type="text" class="form-control" id="date">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label class='label'>Assigned To</label>
+                    <br>
+                    <input type="text" class="form-control" id="assign">
+                </div>
+                <br>
+                <button type="submit" class="button" id='submitData' onsubmit="newTask(event)">Submit</button>
+            </form>
+        </div>
+
+    </div>
+
+
+    <div class="side-container">
+        <h2 class="side-heading">Existing Tasks</h2>
+        <div id="getTasks"></div>
+
+    </div>
+
+
+    <script src='tracker.js'></script>
+</body>
+
+</html>

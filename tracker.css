@@ -1,0 +1,79 @@
+
+.container{
+  margin: 0% auto;
+  height:100%;
+  background-color: whitesmoke;
+}
+header { 
+  height: 100px;
+}
+.number{
+  color: #616161;
+  margin-left: 31px;
+}
+.headings{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-left: 31px;
+}
+.label{
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+}
+.form-group{
+  margin-left: 31px;
+}
+.form-control {
+  width: 70%;
+  height: 40px;
+  border-radius: 5px;
+  border-color: #d6d1d1;
+  background: #f0f0f0ce;
+  margin-bottom: 1px;
+  margin-top: 8px;
+}
+
+.main-container{
+  background-color: #ffffff;
+  width: 37%;
+  min-height: 70%;
+  border-color: #f0f0f0;
+  border-style: solid;
+  position: absolute;
+}
+.side-container{
+  position: relative;
+  float: right;
+  width: 62%;
+  min-height:450px;
+  text-align: center;
+  border-color: #f0f0f0;
+  border-style: solid;
+}
+.button {
+  width: 85px;
+  height: 46px;
+  background-color: #514d4d;
+  border-radius: 5px;
+  border-style: solid;
+  color: #ffffff;
+  font-family: Georgia, Times, 'Times New Roman', Serif;
+  font-size: 18px;
+  margin-left: 31px;
+}
+.side-heading{
+  margin-left: -630px;
+}
+#getTasks{
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 5px;
+  border-color: #f0f0f0;
+  margin: 31px;
+}
+/* .block{
+  height: 40px;
+  width: 340px;
+  overflow: hidden;
+  padding: 6px 5px;
+} */
